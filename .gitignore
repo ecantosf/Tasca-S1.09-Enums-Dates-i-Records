@@ -1,0 +1,195 @@
+### IntelliJ IDEA ###
+# Direccions d'IntelliJ
+*.iml
+.idea/
+*.ipr
+*.iws
+*.ids
+
+# Fitxers de configuració d'entorn
+/out/
+
+# Plugin de Gradle
+.gradle/
+
+# Plugin d'Eclipse
+.classpath
+.project
+.settings/
+
+# Plugin de Maven
+target/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Compilacions de C++
+cmake-build-*/
+
+# Editor de codi portable de JetBrains
+*.jetBrains
+
+# VS Code
+.vscode/
+
+### Java ###
+# Fitxers compilats
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Fitxers de logs
+*.log
+
+# Fitxers de checkpoint
+*.ctxt
+
+# Paquets mòbils de Java
+.mtj.tmp/
+
+# Fitxers Javadoc
+.javadoc/
+
+# Fitxers de paquet de Java
+*.javac
+
+# Fitxers de anàlisi de JaCoCo
+*.jacoco
+
+# Fitxers de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### Windows ###
+# Fitxers de Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Fitxers de carpeta Dump de Windows
+[Dd]esktop.ini
+
+# Carpeta de reciclatge
+$RECYCLE.BIN/
+
+# Fitxers temporals de Windows
+*.tmp
+*.temp
+
+# Fitxers d'instal·lador de Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Accesos directes
+*.lnk
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+### Gradle ###
+.gradle/
+build/
+
+# Evitar enviar el wrapper del Gradle a repositoris
+!gradle/wrapper/gradle-wrapper.jar
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+# Fitxers .factorypath
+.factorypath
+
+### macOS ###
+# Innecessari en Windows, però útil si hi ha desenvolupadors macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Sublime Text ###
+*.sublime-workspace
+*.sublime-project
+
+### Vim ###
+# Fitxers d'intercanvi
+*.swp
+*.swo
+
+### Projecte específic ###
+# Fitxers de configuració local
+*.properties.local
+application-local.yml
+application-local.properties
+
+# Fitxers de secrets (NO incloure mai credencials al repositori!)
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.crt
+*.key
+*.pem
+
+# Fitxers de dades de proves o desenvolupament
+*.db
+*.sqlite
+*.h2.db
+
+# Fitxers generats per IDE
+*.orig
+
+# Fitxers de lliurament
+dist/
+release/
+deploy/
+
+# Fitxers de profiling
+*.hprof
+*.prof
+*.profdata
+*.profraw.idea/
