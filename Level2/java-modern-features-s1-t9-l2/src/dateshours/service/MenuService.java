@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 public class MenuService {
     private final DateService dateService;
+    private final AgendaService agendaService;
     private final Scanner scanner;
 
     public MenuService() {
         this.dateService = new DateService();
+        this.agendaService = new AgendaService();
         this.scanner = new Scanner(System.in);
     }
 
@@ -24,8 +26,9 @@ public class MenuService {
             System.out.println("4. Show today in different formats");
             System.out.println("5. Check if dates are before/after today");
             System.out.println("6. Perform date arithmetic");
-            System.out.println("7. Exit");
-            System.out.print("Select an option (1-7): ");
+            System.out.println("7. Appointment Agenda");
+            System.out.println("8. Exit");
+            System.out.print("Select an option (1-8): ");
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
@@ -49,7 +52,10 @@ public class MenuService {
                 case 6:
                     performDateArithmetic();
                     break;
-                case 7:
+                case 7:  // <-- NOU (agenda)
+                    agendaService.showAgendaMenu();
+                    break;
+                case 8:  // <-- NOU (exit)
                     exit = true;
                     System.out.println("Goodbye!");
                     break;
