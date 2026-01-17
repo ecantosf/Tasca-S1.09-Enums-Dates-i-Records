@@ -22,16 +22,25 @@ and how to extract useful information from them.
 - Ex3: Enum constructors and encapsulated properties
 - Ex4: Enum.valueOf() with exception handling and case-insensitive parsing
 
-Level 2: (empty)
+Level 2: Dates and Times - This level focuses on modern date/time manipulation using 
+Java's Time API.
 
-Level 3: (empty)
+### Implementation:
+- Ex1: Display current date and time using LocalDate, LocalTime, and LocalDateTime
+- Ex2: Calculate differences between dates using Period and Duration
+- Ex3: Add/subtract days, months, and hours from dates
+- Ex4: Format dates in multiple formats using DateTimeFormatter
+- Ex5: Check if a given date is before today
+- Ex6: Simple appointment agenda with LocalDateTime storage and upcoming appointments display
 
-## Features
-- Set up Java projects with Maven or Gradle for testing.
-- Write unit tests with JUnit 5.
-- Write expressive assertions with AssertJ.
-- Apply the TDD cycle (test, implementation, refactoring).
-- Separate business logic from input/output to make code testable.
+### Key Concepts Demonstrated:
+- Ex1: java.time package basics and now() methods
+- Ex2: Period for date differences, Duration for time differences
+- Ex3: Date arithmetic with plus/minus methods
+- Ex4: Custom date formatting patterns and locale-specific formats
+- Ex5: Date comparisons using isBefore() and isAfter()
+- Ex6: Real-world application with appointment management and filtering
+
 
 ## Technologies
 - Language: Java
