@@ -48,7 +48,7 @@ Java's Time API.
 - Version Control: Git
 
 ## Installation and Execution
-1. Create GitHub repository
+1. Clone the repository to the local machine.
 2. Open the project in IntelliJ IDEA.
 3. Configure JDK (Java 21).
 4. Run the main class of each exercise directly from the IDE.
